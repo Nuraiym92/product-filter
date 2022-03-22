@@ -1,0 +1,30 @@
+.container{
+    width:90%;
+    margin:0 auto;
+}
+.products__inner{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+  
+}
+.products__item-photo{
+    width: 200px;
+    height:300px;
+    margin-right:50px;
+    object-fit: contain;
+}
+
+h1{
+    text-align: center;
+}
+.products__filters{
+    margin: 100px 0;
+}
+button{
+    background-color: rgb(17, 112, 81);
+    padding: 12px 15px;
+    color:white;
+    font-size: 15px;
+}
